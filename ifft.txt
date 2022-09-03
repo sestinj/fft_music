@@ -1,0 +1,14 @@
+You could instead represent timbre as a bar graph spectrogram (discrete on the frequency axis), which would be stored in an array of functions whose domains are time and whose ranges are amplitude.
+
+Parameters to edit timbre:
+- vibrato (shifting in the central frequency over time)
+- Overtones/(Undertones?)
+- Attack/decay/tremolo (change in overall amplitude over time)
+- Shape of the sine wave (normal sine, square, jagged, make up other stuff (tan?))
+- Anything else you can mess with or figure out.
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/timbre.html
+
+https://digitalcommons.sacredheart.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1015&context=wac_prize
+
+- The lowest frequency is important to a tone and is called the fundamental. This should be used rather than your center of mass/centroid calculation to shift the tone
